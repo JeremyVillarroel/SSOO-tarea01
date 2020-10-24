@@ -20,7 +20,7 @@ int Hora() {
 	if (idProceso == 0) {
 		printf ("Listo para recibir la señal SIGUSR1.\n");
 		while (1) {
-			pause ();
+			//pause ();
 		}
 	}
 	
